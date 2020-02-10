@@ -4,7 +4,7 @@
   "description": "nhi-tw-api",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "node_modules/.bin/jest"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "dependencies": {
     "node-fetch": "^2.6.0",
     "xlsx": "^0.15.5"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
   }
 }

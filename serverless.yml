@@ -3,14 +3,16 @@ service: nhi-tw-api
 frameworkVersion: ">=1.2.0 <2.0.0"
 
 provider:
-  name: nhi-tw-api
+  name: aws
   runtime: nodejs10.x
   region: us-east-1
   env: dev
+  profile: goldax
       
 functions:
   convertSample:
-    handler: functinos/convertSample/index.handler
+    handler: functions/convertSample/index.handler
+    timeout: 60
     events:
       - http:
           path: convertSample
