@@ -1,0 +1,17 @@
+service: nhi-tw-api
+
+frameworkVersion: ">=1.2.0 <2.0.0"
+
+provider:
+  name: nhi-tw-api
+  runtime: nodejs10.x
+  region: us-east-1
+  env: dev
+      
+functions:
+  convertSample:
+    handler: functinos/convertSample/index.handler
+    events:
+      - http:
+          path: convertSample
+          method: get

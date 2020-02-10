@@ -1,0 +1,23 @@
+{
+  "name": "nhi-tw-api",
+  "version": "1.0.0",
+  "description": "nhi-tw-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chunyenHuang/nhi-tw-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chunyenHuang/nhi-tw-api/issues"
+  },
+  "homepage": "https://github.com/chunyenHuang/nhi-tw-api#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "xlsx": "^0.15.5"
+  }
+}
