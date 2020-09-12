@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/chunyenHuang/nhi-tw-api#readme",
   "dependencies": {
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "xlsx": "^0.15.5"
   },
   "devDependencies": {
